@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-image {
+    background-image: url('photos/led-1.jpg');
+    background-size:auto;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin-left: 50%;
+    margin-bottom: 200px;
+    background-color: #008b8b;
+}
+
+.about{
+    width: 80vw; /* Adjust the width to be responsive based on the viewport width */
+    max-width: 1000px; /* Optional: to ensure it doesn't get too wide on large screens */
+    height: auto; /* Adjust height automatically based on content, or use vh for viewport height */
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #008b8b;
+}
+
+
+.contact{
+    width: 80vw; /* Adjust the width to be responsive based on the viewport width */
+    max-width: 1000px; /* Optional: to ensure it doesn't get too wide on large screens */
+    height: auto; /* Adjust height automatically based on content, or use vh for viewport height */
+    padding: 20px;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #008b8b;
+}
+
+.interests{
+    width: 80vw; /* Adjust the width to be responsive based on the viewport width */
+    max-width: 1000px; /* Optional: to ensure it doesn't get too wide on large screens */
+    height: auto; /* Adjust height automatically based on content, or use vh for viewport height */
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #008b8b;
+}
+
+.projects{
+    width: 80vw; /* Adjust the width to be responsive based on the viewport width */
+    max-width: 1000px; /* Optional: to ensure it doesn't get too wide on large screens */
+    height: auto; /* Adjust height automatically based on content, or use vh for viewport height */
+    padding: 20px;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #008b8b;
+}
+
+.work-with-me{
+    width: 80vw; /* Adjust the width to be responsive based on the viewport width */
+    max-width: 1000px; /* Optional: to ensure it doesn't get too wide on large screens */
+    height: auto; /* Adjust height automatically based on content, or use vh for viewport height */
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #008b8b;
+}
+
+footer {
+    background-color: #008b8b;
+    color: white;
+    text-align: bottom-left;
+    padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+}
+h1{
+    text-align: left;
+    color: #B2DFDB;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 46px; 
+
+}
+p {
+    
+    text-align: left;
+    color: #085B57;
+    padding-left: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+}
+
+.sidebar {
+    position: fixed;
+    top: 50%; /* Adjust as needed */
+    left: 0;
+    transform: translateY(-50%);
+    width: 50px; /* Adjust as needed */
+    padding-left: 10px;
+}
+
+/* Additional styling */
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styling */
+.content {
+    background-image: url('photos/backgroundcopy.png');
+    position: relative;
+    padding: 20px;
+    margin-top: 600px;
+    z-index: 2;
+  }
+
+  
+.wave{
+    overflow:hidden;
+    position:relative;
+    }
+    .wave::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 241% 241px;
+    background-position: 41% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23222222"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23222222"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23222222"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .wave::before{
+    background-size: 241% calc(2vw + 241px);
+    }
+    }
+     
+    .custom-shape-divider-bottom-1707566018 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .headerwave {
+        position: relative;
+        display: block;
+        width: calc(162% + 1.3px);
+        height: 126px;
+    }
+    
+    .headerwave .shape-fill {
+        fill: #00E5FF;
+    }
